@@ -9,6 +9,7 @@ import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.graphics.Typeface;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.text.Editable;
 import android.text.InputFilter;
 import android.text.InputType;
@@ -40,7 +41,7 @@ import com.palsulich.gamescoring.sql.ScoresSQLiteHelper;
 import java.util.ArrayList;
 
 @SuppressWarnings("ALL")
-public class MainActivity extends Activity {
+public class MainActivity extends ActionBarActivity {
     private ArrayList<Player> playerList;
     private Game game;
     private boolean unsaved = false;
@@ -308,25 +309,25 @@ public class MainActivity extends Activity {
         totalScoresRow.addView(total, lpEqualWeight);
     }
 
-/*    @Override
+    @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu items for use in the action bar
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.main_actions, menu);
-        MenuItem accept = menu.findItem(R.id.action_accept);
-        MenuItem addPlayer = menu.findItem(R.id.action_add_player);
-        addPlayer.setVisible(namesDef);
-        accept.setVisible(!namesDef);
+//        MenuItem accept = menu.findItem(R.id.action_accept);
+//        MenuItem addPlayer = menu.findItem(R.id.action_add_player);
+//        addPlayer.setVisible(namesDef);
+//        accept.setVisible(!namesDef);
        return super.onCreateOptionsMenu(menu);
-    }*/
-
-    @Override
-    public boolean onPrepareOptionsMenu(Menu menu) {
-        // Inflate the menu items for use in the action bar
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.main_actions, menu);
-        return true;
     }
+
+//    @Override
+//    public boolean onPrepareOptionsMenu(Menu menu) {
+//        // Inflate the menu items for use in the action bar
+//        MenuInflater inflater = getMenuInflater();
+//        inflater.inflate(R.menu.main_actions, menu);
+//        return true;
+//    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {

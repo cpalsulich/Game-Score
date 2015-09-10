@@ -1,17 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<pre-dex-items>
+<items version="2" >
 
     <item
-        dex="C:\Users\Chad\Documents\GitHub\AndroidProjects\GameScoringProject\GameScoring\build\intermediates\pre-dexed\debug\support-v4-19.1.0-e311e493b238b75da4095bd5ee7b69d76d73dc42.jar"
-        jar="C:\Program Files (x86)\Android\android-studio\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jar="/Users/chad/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
         jumboMode="false"
-        revision="19.1.0"
-        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+        revision="22.0.0"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/Users/chad/projects/Game-Score/GameScoring/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-d56e6dbdd5edc9f88f8706525e52283c01530f20.jar" />
+    </item>
     <item
-        dex="C:\Users\Chad\Documents\GitHub\AndroidProjects\GameScoringProject\GameScoring\build\intermediates\pre-dexed\debug\classes-aa0cddb7daa049e8be1ff669b6cf13736a279608.jar"
-        jar="C:\Users\Chad\Documents\GitHub\AndroidProjects\GameScoringProject\GameScoring\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\classes.jar"
+        jar="/Users/chad/projects/Game-Score/GameScoring/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/jars/classes.jar"
         jumboMode="false"
-        revision="19.1.0"
-        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
+        revision="22.0.0"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/Users/chad/projects/Game-Score/GameScoring/build/intermediates/pre-dexed/debug/classes-24b60ffb43b6c828d06529c695dc9fce12e0cab4.jar" />
+    </item>
+    <item
+        jar="/Users/chad/projects/Game-Score/GameScoring/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/chad/projects/Game-Score/GameScoring/build/intermediates/pre-dexed/debug/classes-7ce0e6e166a41580f72d34e6871d994bb58ccc99.jar" />
+    </item>
+    <item
+        jar="/Users/chad/projects/Game-Score/GameScoring/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/Users/chad/projects/Game-Score/GameScoring/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-fe84b0488727cfd0629c29f2afb1f194d2bee29c.jar" />
+    </item>
 
-</pre-dex-items>
+</items>
